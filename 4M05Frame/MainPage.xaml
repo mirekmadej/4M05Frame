@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_4M05Frame.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Text=" smak lodów"
+                Margin="0 0 -35 20"
+                ZIndex="1"
+                BackgroundColor="White"
+                WidthRequest="100"
+                HorizontalOptions="Start"
+                />
+            <Frame
+                WidthRequest="300"
+                HorizontalOptions="Start"
+                >
+                <StackLayout>
+                    <RadioButton
+                        Content="truskawkowe"
+                        />
+                    <RadioButton
+                        Content="koksowe"
+                        />
+                    <RadioButton
+                        Content="malinowe"
+                        />                    
+                </StackLayout>
+
+            </Frame>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
